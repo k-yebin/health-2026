@@ -93,7 +93,7 @@ export function BackButton({ onClick }) {
         fontFamily: 'inherit',
       }}
     >
-      <span style={{ fontSize: 18 }}>←</span> 홈으로
+      <span style={{ fontSize: 21 }}>← 뒤로</span>
     </button>
   )
 }

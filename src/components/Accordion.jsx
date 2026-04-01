@@ -44,10 +44,10 @@ export function Accordion({ items }) {
           </button>
           {open === i && (
             <div style={{
-              padding: '0 16px 15px',
+              padding: '12px 20px 25px',
               fontSize: s.accA,
               color: 'var(--text-secondary)',
-              lineHeight: 1.75,
+              lineHeight: 1.95,
             }}>
               {item.a}
             </div>
