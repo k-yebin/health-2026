@@ -108,7 +108,8 @@ export function Home({ onNavigate }) {
           ))}
         </div>
         <p style={{ fontSize: s.sub, color: 'var(--color-red-dark)', lineHeight: 1.6 }}>
-          <strong style={{ fontWeight: 500 }}>건강증진센터</strong> 052-250-8300<br />
+          <strong style={{ fontWeight: 500 }}>건강증진센터</strong>{' '}
+<a href="tel:0522508300" style={{ color: 'var(--color-red-dark)', fontWeight: 500 }}>052-250-8300</a><br />
           또는 <strong style={{ fontWeight: 500 }}>응급실</strong> 즉시 방문
         </p>
       </div>

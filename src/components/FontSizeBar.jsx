@@ -23,11 +23,11 @@ export function FontSizeBar() {
   )
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', padding: '10px 16px 0', gap: 6 }}>
+    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', padding: '20px 16px 10px', gap: 6 }}>
       <span style={{ fontSize: 12, color: 'var(--text-secondary)', marginRight: 4 }}>글자 크기</span>
-      {btn('sm', '작게', 13)}
-      {btn('md', '보통', 15)}
-      {btn('lg', '크게', 17)}
+      {btn('sm', '작게', 14)}
+      {btn('md', '보통', 16)}
+      {btn('lg', '크게', 18)}
     </div>
   )
 }
